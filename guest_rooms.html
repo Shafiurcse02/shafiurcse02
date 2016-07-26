@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Guest Room ofJNU Hotel</title>
+<link href="css/style.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="js/jquery-1.4.min.js"></script>
+<script type="text/javascript" src="js/jquery.cycle.all.js"></script>
+<script type="text/javascript" src="index.js"></script>
+   
+
+
+
+</head>
+<body>
+
+<div class="wraper">       
+   <div class="header">
+      <div class="header-left"><img src="images/logo.png"  alt="logo" width="191" height="113" title="Welcome  Hotel" /></a></div>
+         <div class="header-right">
+		   <p>JAGANNATHA UNIVERSITY, Dhaka-1100</p>
+		      <div class="navigation">
+			    <ul> 
+				<li class="overview selected_ovr"><a href="http://localhost/shafiurcse02/index.php" title="Overview">home</a></li>
+              <li class="guest "><a href="http://localhost/shafiurcse02/admin_login.php" title="Admin">Admin</a></li>					
+                <!--<li class="photos "><a href="photos.html" title="Photos">PHOTOS</a></li> -->
+                <li class="guest "><a href="http://localhost/shafiurcse02/guest_rooms.html" title="Guest Rooms">Guest Rooms</a></li> 
+                <li class="localarea "><a href="http://localhost/shafiurcse02/resistration.php" title="Resistration">resistration</a></li>   		
+				<li class="features "><a href="http://localhost/shafiurcse02/user_login.php" title="User login ">login</a></li> 
+                <li class="dining "><a href="http://localhost/shafiurcse02/dinning.html" title="Dining">Dining</a></li> 
+                <li class="meetings "><a href="http://localhost/shafiurcse02/meetings_N_events.html" title="Meetings &amp;  Events">Meeting</a></li> 
+			   </ul> 
+		     </div>			<!--end navigation -->	
+		</div>	<!--end header-right -->
+		
+	</div><!--end header -->
+	
+    
+    <!--start mainbody -->
+	<div class="mainbody">
+    
+		
+		<!--start mainbody-bottom -->
+		<div class="mainbody-bottom">
+		<!--start left -->
+			<div class="left">
+			<form action="http://localhost/shafiurcse02/required_room.php" method="post" id="onlinebooking">
+                    <table width="250" border=0>
+                        <tr ><th colspan="2">Online Searching</th></tr>
+                        <tr ><th width="60"><img src="images/chech_in.png" width="60" height="20"></th><td width="60"><input  type="date" name="in_date" size="15" />
+                          </td></tr>
+                        <tr><th><img src="images/chech_out.png" width="60" height="20"></th><td><input type="date" name="out_date" size="15" /></td></tr>
+                       
+                        <tr><th><img src="images/adult.png" width="60" height="20"></th><td>
+                                <select name="Adults">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                </select>
+                            </td></tr>
+                        <tr><th><img src="images/child.png" width="60" height="20"></th>
+                            <td>
+                                <select name="child">
+                                    <option value="0">0</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td   colspan="2" align="right"><input type="submit" value="Search" title="Search Hotel24.com" /></td>
+                        </tr>
+                    </table>
+				  </form>			
+                 </div>
+			<!--end left -->
+			<!--start right -->
+			<div class="right">
+			<b>Guest rooms</b>
+			<span class="arrow-left" id="arrow-left"><a href="#"></a></span>
+ 			 <span class="arrow-right" id="arrow-right"><a href="#"></a></span>
+				<span id="grb">
+				  <img src="uploaded_images/h1.jpg" alt="banner"  width="586" height="270"/>
+                 <img src="uploaded_images/h2.jpg" alt="banner"  width="586" height="270"/>
+                 <img src="uploaded_images/h3.jpg" alt="banner"  width="586" height="270"/>
+                 <img src="uploaded_images/h4.jpg" alt="banner"  width="586" height="270"/>
+                 <img src="uploaded_images/h5.jpg" alt="banner"  width="586" height="270"/>
+                            
+				</span>
+		
+			<p>Welcome! Make yourself comfortable and relax.</p>			
+			<div class="list">
+			
+			<h3>ENTERTAINMENT</h3>
+            <ul>
+            <li>Satellite Television Channels</li>
+            <li>LCD / LED Televisions</li>
+            </ul>
+            <h3>SAFETY FEATURES</h3>
+            <ul>
+            <li>Fire alarm in the floors</li>
+            <li>Smoke detectors</li>
+            <li>Sprinklers</li>
+            <li>Electronic lock</li>
+            </ul>
+			</div>
+         <p>Some of the amenities above may not be available in all rooms. Additional charges on certain amenities may apply.</p>			
+	       </div>
+			<!--end right -->
+		</div>
+		<!--end mainbody-bottom -->
+	</div>
+	<!--end mainbody -->
+	<div class="footer">
+	<div class="footer-left">
+	</div>
+ <div class="footer-right">
+ <p>© 2011 JNU Hotel. All rights reserved.</p> </div>
+
+</div>
+    
+ </div>
+
+
+
+</body>
+</html>

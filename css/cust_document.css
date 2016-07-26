@@ -1,0 +1,100 @@
+#contact_t_head1
+{
+    background-color:#8080c0;
+    color: #33F;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 22px;
+    width:250px;
+}
+.right_document{
+    width:65%;
+    margin:3px auto;
+    float:right;
+    position:relative;
+    background-color: #ffffff;
+}
+#doc_head
+{
+    width:100%;
+    font-size: 20px;
+    text-align: center;
+    background-color: #ddd;
+    color: mediumorchid;
+}
+#welcome2
+{
+    color:indigo;
+    font-size: 20px;
+}
+#welcome2 p
+{
+    color: #8000ff;
+    font-size: 20px;
+}
+#docu_button{
+    width: 25%;
+    float: right;
+    margin: 15px;
+    margin-right: 12px;
+    font-size:16px;
+    background-color: #ddd;
+    text-align: center;
+}
+#docu_button a{
+    text-decoration: none;
+    color: #8000ff;
+
+}
+#docu_button a:hover{
+    color:#800040;
+    font-size: 17px;
+
+}
+#doc_logout
+{
+    background-color: #8080c0;
+    color:red;
+}
+#doc_logout a:hover
+{
+    color:#800040;
+    font-size:18px;
+}
+#doc_profile
+{
+    background-color: #8080c0;
+    color: #408080;
+}
+#doc_room
+{
+    color: #408080;
+}
+#welcome1{
+    font-size: 16px;
+    color: #8000ff;
+}
+#welcome2{
+    font-size: 16px;
+    color:#069;
+}
+#welcome2 hr{
+    width: 35%;
+    color: #8000ff;
+    alignment-adjust: central;
+}
+#user_AREA{
+    margin-left: 5%;
+}
+#user_AREA p{
+    font-size:  20px;
+    font-family:serif;
+    padding-right: 10px;
+}
+#user_fixed{
+    color: #8000ff;
+}
+#user_dynamic{
+    color:#33F;
+    font-size : 20px;
+}

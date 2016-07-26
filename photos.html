@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Photo Galary of JNU Hotel</title>
+<link href="css/style.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="js/jquery-1.4.min.js"></script>
+<script type="text/javascript" src="js/jquery.cycle.all.js"></script>
+<script type="text/javascript" src="index.js"></script>
+<link href="jquery.ui.all.css" rel="stylesheet" type="text/css" /> 
+</head>
+
+
+<body>
+<div class="wraper">       
+   <div class="header">
+      <div class="header-left"><img src="images/logo.png"  alt="logo" width="191" height="113" title="Welcome  Hotel" /></a></div>
+         <div class="header-right">
+		   <p>JAGANNATHA UNIVERSITY, Dhaka-1207</p>
+	s	      <div class="navigation">
+			    <ul> 
+				<li class="overview selected_ovr"><a href="http://localhost/shafiurcse02/index.php" target="_top" title="Home">Home</a></li>
+              <li class="guest "><a href="http://localhost/shafiurcse02/admin_login.php" title="Admin">Admin</a></li>					
+                <!--<li class="photos "><a href="photos.html" title="Photos">PHOTOS</a></li> -->
+                <li class="guest "><a href="http://localhost/shafiurcse02/guest_rooms.html" title="Guest Rooms">GUEST ROOMS</a></li> 
+                <li class="localarea "><a href="http://localhost/shafiurcse02/resistration.php" title="Resistration">resistration</a></li>   			
+				<li class="features "><a href="http://localhost/shafiurcse02/user_login.php" title="User login ">login</a></li> 
+                <li class="dining "><a href="http://localhost/shafiurcse02/dinning.html" title="Dining">DINING</a></li> 
+                <li class="meetings "><a href="http://localhost/shafiurcse02/meetings_N_events.html" title="Meetings &amp;  Events">MEETING</a></li> 
+			   </ul> 
+		     </div>
+		
+	</div>
+	
+	</div>
+	<!--end header -->
+
+	<!--start mainbody -->
+	<div class="mainbody_photo">
+		<table border="1">
+   <tr>
+      <td>Room No</td>
+      <td align="center">Ficture</td>
+      <td>Rate</td>
+   </tr>
+   <tr>
+      <td>D02002</td>
+      <td><img src="file:///C:/xampp/htdocs/shafiurcse02/images/photo/r2.jpg" width="200" height="100"/></td>
+      <td>350</td>
+   </tr>
+   <tr>
+      <td>D02003</td>
+      <td><img src="file:///C:/xampp/htdocs/shafiurcse02/images/photo/r3.jpg" width="200" height="100"/></td>
+      <td>300</td>
+   </tr>
+   <tr>
+      <td>D02004</td>
+      <td><img src="file:///C:/xampp/htdocs/shafiurcse02/images/photo/r4.jpg" width="200" height="100"/></td>
+      <td>400</td>
+   </tr>
+   <tr>
+      <td>D02005</td>
+      <td>&<img src="file:///C:/xampp/htdocs/shafiurcse02/images/photo/r5.jpg" width="200" height="100"/></td>
+      <td>400</td>
+   </tr>
+</table>
+	</div>
+	<!--end mainbody -->
+	<div class="footer">
+ <div class="footer-right">
+ <p>© 2011 JNU Hotel. All rights reserved.</p>  </div>
+ </div>
+     </div>
+</body>
+</html>
+<script type="text/javascript">
+	$('slideshow').style.display='none';
+	$('wrapper1').style.display='block';
+	var slideshow=new TINY.slideshow("slideshow");
+	window.onload=function(){
+		slideshow.auto=true;
+		slideshow.speed=5;
+		slideshow.link="linkhover";
+		slideshow.info="information";
+		slideshow.thumbs="slider";
+		slideshow.left="slideleft";
+		slideshow.right="slideright";
+		slideshow.scrollSpeed=5;
+		slideshow.spacing=13;
+		slideshow.active="#fff";
+		slideshow.init("slideshow","image","imgprev","imgnext","imglink");
+	}
+</script>
+

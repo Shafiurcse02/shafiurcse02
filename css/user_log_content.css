@@ -1,0 +1,45 @@
+.user_login_right{
+	float:right;
+	width:99.6%;
+        margin: 2px auto;
+	background-color:#069;
+}
+.user_login_right table{
+	background-color:#FFF;
+        border-radius: 14px;
+        margin: 15px auto;
+        margin-top: 80px;
+        margin-bottom:160px;
+	color:#006699;
+	font-family:"Times New Roman", Times, serif;
+	font-size:17px;
+}
+.user_login_right table a{
+	text-decoration:none;
+	font-family:"Times New Roman", Times, serif;
+	color:#808000;
+}
+#tex_border
+{
+    width:100%;
+ border-radius:2px;
+}
+
+.user_login_right table a:hover{
+	font-size:20px;
+	color:#800040;
+}
+#user_th
+{
+	color:#800040;
+	font-size:24px;
+}
+#user_th1
+{
+	color:#5bc23b;
+	font-size:18px;
+}
+#user_sub
+{
+	text-align:right;
+}
